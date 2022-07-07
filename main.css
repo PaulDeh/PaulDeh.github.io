@@ -127,8 +127,8 @@ body {
     }
 
     .mainBox {
-        width: 85%;
-        height: 50em;
+        width: 95%;
+        height: 55em;
         flex-direction: column;
 
     }
