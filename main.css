@@ -128,15 +128,15 @@ body {
 
     .mainBox {
         width: 85%;
-        height: 40em;
+        height: 50em;
         flex-direction: column;
 
     }
 
     .leftSection img {
         content: url(../images/image-product-mobile.jpg);
-        width: 15em;
-        height: 11em;
+        width: 100%;
+        height: auto;
         border-radius: 1em 1em 0em 0em;
     }
 
@@ -144,6 +144,23 @@ body {
         flex-direction: column;
     }
 
+    .headlineTwo {
+        font-size: 2em;
+    }
+    
+    .description {
+        font-size: 1em;;
+    }
+
+    .oldPrice {
+        padding-left: 1.5em;
+        font-size: 0.9em;
+    }
+
+    .cart {
+        font-size: 1.3em;
+
+    }
 
 
 }
