@@ -1,0 +1,147 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.site {
+    display: flex;
+    min-height: 98vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainBox {
+    background-color: white;
+    height: 43em;
+    width: 60em;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1em;
+    margin:auto;
+
+}
+
+.leftSection img {
+    height: 43em;
+    width: auto;
+    border-radius: 1em 0em 0em 1em;
+}
+
+.rightSection {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 0.1em;
+
+}
+
+/*Paragraphs*/
+
+.headline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.3em;
+}
+
+.headlineTwo {
+    font-family: Fraunces, sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-top: 0.1em;
+    color: hsl(212, 21%, 14%);
+
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 0.1em;
+}
+
+.currentPrice {
+    font-family: Fraunces, sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+
+}
+
+.oldPrice {
+    font-family: Fraunces, sans-serif;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    text-decoration:line-through;
+    margin-left: 1em;
+
+}
+
+/*Cart Button*/
+
+.cart {
+    background-color: hsl(212, 21%, 14%);
+    color: white;
+    width: 100%;
+    padding: 0.8em 1em;
+    font-size: 1.5em;
+    font-family: Montserrat, sans-serif;
+    border-radius: 0.3em;
+}
+
+.cart img {
+    height: 0.9em;
+    padding-right: 0.8em;
+}
+.cart:hover {
+    cursor: pointer;
+}
+
+/*attribution*/
+
+.attribution {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px)
+{
+
+    .site {
+        height: 130vh;
+    }
+
+    .mainBox {
+        width: 30em;
+        height: 66em;
+        flex-direction: column;
+    }
+
+    .leftSection img {
+        content: url(../images/image-product-mobile.jpg);
+        width: 30em;
+        height: 22em;
+        border-radius: 1em 1em 0em 0em;
+    }
+
+    .rightSection {
+        flex-direction: column;
+    }
+
+
+
+}
