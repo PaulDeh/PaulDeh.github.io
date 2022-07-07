@@ -127,9 +127,10 @@ body {
     }
 
     .mainBox {
-        width: 15em;
-        height: 33em;
+        width: 85%;
+        height: auto;
         flex-direction: column;
+
     }
 
     .leftSection img {
