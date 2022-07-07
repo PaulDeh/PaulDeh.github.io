@@ -8,15 +8,15 @@ body {
 
 .site {
     display: flex;
-    min-height: 98vh;
+    min-height: 100vh;
     flex-direction: column;
     align-items: center;
 }
 
 .mainBox {
     background-color: white;
-    height: 43em;
-    width: 60em;
+    height: 27em;
+    width: 36em;
     display: flex;
     flex-direction: row;
     border-radius: 1em;
@@ -25,7 +25,7 @@ body {
 }
 
 .leftSection img {
-    height: 43em;
+    height: 27em;
     width: auto;
     border-radius: 1em 0em 0em 1em;
 }
@@ -51,7 +51,7 @@ body {
 
 .headline {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.4em;
+    font-size: 1em;
     font-weight: 500;
     color: hsl(228, 12%, 48%);
     letter-spacing: 0.3em;
@@ -59,7 +59,7 @@ body {
 
 .headlineTwo {
     font-family: Fraunces, sans-serif;
-    font-size: 2.5em;
+    font-size: 1.7em;
     font-weight: 700;
     margin-top: 0.1em;
     color: hsl(212, 21%, 14%);
@@ -68,14 +68,14 @@ body {
 
 .description {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2em;
+    font-size: 0.8em;
     font-weight: 500;
     margin-top: 0.1em;
 }
 
 .currentPrice {
     font-family: Fraunces, sans-serif;
-    font-size: 4em;
+    font-size: 2em;
     font-weight: 700;
     color: hsl(158, 36%, 37%);
 
@@ -83,7 +83,7 @@ body {
 
 .oldPrice {
     font-family: Fraunces, sans-serif;
-    font-size: 1.4em;
+    font-size: 0.7em;
     font-weight: 700;
     color: hsl(158, 36%, 37%);
     text-decoration:line-through;
@@ -98,7 +98,7 @@ body {
     color: white;
     width: 100%;
     padding: 0.8em 1em;
-    font-size: 1.5em;
+    font-size: 0.7em;
     font-family: Montserrat, sans-serif;
     border-radius: 0.3em;
 }
@@ -106,6 +106,7 @@ body {
 .cart img {
     height: 0.9em;
     padding-right: 0.8em;
+    padding-top: 0.2em;
 }
 .cart:hover {
     cursor: pointer;
@@ -126,15 +127,15 @@ body {
     }
 
     .mainBox {
-        width: 30em;
-        height: 66em;
+        width: 15em;
+        height: 33em;
         flex-direction: column;
     }
 
     .leftSection img {
         content: url(../images/image-product-mobile.jpg);
-        width: 30em;
-        height: 22em;
+        width: 15em;
+        height: 11em;
         border-radius: 1em 1em 0em 0em;
     }
 
